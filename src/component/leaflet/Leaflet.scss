@@ -1,0 +1,15 @@
+.leaflet-container {
+    margin-top: 20px;
+    width: 80%;
+    height:500px;
+    display:flex;
+    margin:auto;
+    &-title {
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .leaflet-touch {
+        width: 100%;
+    }
+}

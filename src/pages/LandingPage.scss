@@ -1,0 +1,55 @@
+// .city-container .city-container-header {
+//     width: 100%;
+//     height: 50px;
+//     background-color: blue;
+//     display: flex;
+//     align-items: center;
+//     color: white;
+// }
+// .city-container .city-container-body {
+//     margin:50px;
+//     width: 100%;
+//     height: 100vh;
+//    overflow-x: hidden;
+//    overflow-y: auto;
+// }
+
+// .city-container .city-container-body  .city-container-body-input {
+//     display: flex;
+//     margin-bottom: 20px;
+
+// }.city-container .city-container-body  .city-container-body-input-element {
+//     width:150px;
+//     margin-left: 10px ;
+// }
+
+// .city-container .city-container-body  .city-container-body-button {
+//     margin-left: 50px;
+
+// }
+
+
+.city-container-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;;
+}
+
+.city-container {
+    &-header {
+        width: 100%;
+        height: 50px;
+        background-color: blue;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding-left: 25px;
+        font-size: 24px;
+    }
+    &-body {
+        width: 100%;
+        height:100%;
+    }
+}
