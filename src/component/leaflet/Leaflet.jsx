@@ -20,7 +20,9 @@ export default function Leaflet() {
   );
   const [currentPosition, setPosition] = useState(position);
   useEffect(() => {
-    setPosition(selectCurrentPosition);
+    if(selectCurrentPosition.length) {
+        setPosition(selectCurrentPosition);
+    }
   }, [selectCurrentPosition]);
 
   useEffect(() => {
